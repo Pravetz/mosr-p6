@@ -41,7 +41,7 @@ def main():
 
     if args.use_mlflow:
         import mlflow
-        tracking_uri = os.getenv('MLFLOW_TRACKING_URI', 'file:./mlruns')
+        tracking_uri = os.getenv('MLFLOW_TRACKING_URI', 'http://127.0.0.1:5000')
         mlflow.set_tracking_uri(tracking_uri)
         mlflow.set_experiment('mlspec-methodological-validity')
         with mlflow.start_run():

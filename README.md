@@ -25,13 +25,21 @@ python src/train_ml_baseline.py
 
 ## MLflow run
 
+Start the local tracking server (keep this terminal open):
+
 ```bash
-mlflow ui --host 127.0.0.1 --port 5000
-python src/run_experiment.py --use-mlflow
-python src/train_ml_baseline.py --use-mlflow
+make mlflow
 ```
 
-Open `http://localhost:5000`.
+In another terminal, log either experiment to that server:
+
+```bash
+make mlflow-run
+make mlflow-baseline
+```
+
+Open `http://127.0.0.1:5000`. Local MLflow state is stored under the ignored
+`.mlflow/` directory. Run `make clean` as your normal user; `sudo` is not needed.
 
 ## Docker
 
@@ -40,11 +48,18 @@ docker build -t mlspec-experiment:v1 .
 docker run --rm mlspec-experiment:v1
 ```
 
+The standalone image runs the evaluation without MLflow tracking.
+
 Or run the experiment and the MLflow server together:
 
 ```bash
-docker compose up --build
+make up
 ```
+
+Docker stores its MLflow database and artifacts in the `mlflow-data` named
+volume instead of writing container-owned files into the repository. Stop the
+containers with `make down`. To also delete the Docker MLflow history, run
+`make clean-docker`.
 
 ## DVC
 
@@ -70,10 +85,3 @@ python src/run_experiment.py --seed 42 --output artifacts/run3.json
 ```
 
 The classification metrics and dataset SHA-256 must be identical. Runtime is expected to vary slightly.
-
-## Publication
-
-1. Publish the repository to GitHub/GitLab.
-2. Insert the repository URL into `zenodo.json`.
-3. Create a Zenodo release and obtain a DOI.
-4. Add the DOI badge/link to this README.

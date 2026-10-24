@@ -47,7 +47,7 @@ def main():
 
     if args.use_mlflow:
         import mlflow
-        mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI', 'file:./mlruns'))
+        mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI', 'http://127.0.0.1:5000'))
         mlflow.set_experiment('mlspec-ml-baseline')
         with mlflow.start_run():
             mlflow.log_params({'seed': args.seed, 'model': 'LogisticRegression', 'test_size': 0.30})

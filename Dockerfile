@@ -9,4 +9,4 @@ COPY requirements.txt .
 RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . .
 
-CMD ["python", "src/run_experiment.py", "--use-mlflow"]
+CMD ["python", "src/run_experiment.py"]

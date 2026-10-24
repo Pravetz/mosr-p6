@@ -11,5 +11,13 @@
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
-  "notes": "Add the public Git repository URL to related_identifiers after publication."
+  "related_identifiers": [
+    {
+      "identifier": "github.com",
+      "scheme": "url",
+      "relation_type": {
+        "id": "requires"
+      }
+    }
+  ]
 }

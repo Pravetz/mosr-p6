@@ -9,8 +9,8 @@
   "fn": 0,
   "n": 225,
   "seed": 42,
-  "elapsed_s": 0.009915755999998055,
+  "elapsed_s": 0.003371360999153694,
   "data_sha256": "27a2b4496f3a7e2252929256a4f20a6caac2076c5eaac8b94c1859cb462fd917",
   "python": "3.13.5",
-  "platform": "Linux-6.18.55-x86_64-with-glibc2.41"
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41"
 }
