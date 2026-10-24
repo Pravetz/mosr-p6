@@ -13,7 +13,7 @@
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "github.com",
+      "identifier": "https://github.com/Pravetz/mosr-p6",
       "scheme": "url",
       "relation_type": {
         "id": "requires"
