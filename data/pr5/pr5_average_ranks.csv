@@ -1,0 +1,4 @@
+algorithm,average_rank
+Baseline (local),2.8
+Full validator,1.2
+Ablation - provenance,2.0

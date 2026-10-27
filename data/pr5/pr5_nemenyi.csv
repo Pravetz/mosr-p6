@@ -1,0 +1,4 @@
+algorithm_1,algorithm_2,rank_diff,q,p_nemenyi
+Baseline (local),Full validator,1.5999999999999999,7.999999999999999,3.6637359812630166e-15
+Baseline (local),Ablation - provenance,0.7999999999999998,3.999999999999999,0.00018710512242481325
+Full validator,Ablation - provenance,0.8,4.0,0.00018710512242481325

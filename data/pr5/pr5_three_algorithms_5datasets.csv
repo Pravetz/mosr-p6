@@ -1,0 +1,151 @@
+dataset,run,algorithm,f1,accuracy
+Dataset 1 - preprocessing,1,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,1,Full validator,1.0,1.0
+Dataset 1 - preprocessing,1,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,2,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,2,Full validator,1.0,1.0
+Dataset 1 - preprocessing,2,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,3,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,3,Full validator,1.0,1.0
+Dataset 1 - preprocessing,3,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,4,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,4,Full validator,1.0,1.0
+Dataset 1 - preprocessing,4,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,5,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,5,Full validator,1.0,1.0
+Dataset 1 - preprocessing,5,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,6,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,6,Full validator,1.0,1.0
+Dataset 1 - preprocessing,6,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,7,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,7,Full validator,1.0,1.0
+Dataset 1 - preprocessing,7,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,8,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,8,Full validator,1.0,1.0
+Dataset 1 - preprocessing,8,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,9,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,9,Full validator,1.0,1.0
+Dataset 1 - preprocessing,9,Ablation - provenance,0.0,0.3333333333333333
+Dataset 1 - preprocessing,10,Baseline (local),0.0,0.3333333333333333
+Dataset 1 - preprocessing,10,Full validator,1.0,1.0
+Dataset 1 - preprocessing,10,Ablation - provenance,0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,1,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,1,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,1,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,2,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,2,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,2,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,3,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,3,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,3,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,4,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,4,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,4,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,5,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,5,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,5,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,6,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,6,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,6,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,7,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,7,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,7,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,8,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,8,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,8,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,9,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,9,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,9,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 2 - CV/reproducibility,10,Baseline (local),0.0,0.3333333333333333
+Dataset 2 - CV/reproducibility,10,Full validator,1.0,1.0
+Dataset 2 - CV/reproducibility,10,Ablation - provenance,0.6666666666666666,0.6666666666666666
+Dataset 3 - partitioning,1,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,1,Full validator,1.0,1.0
+Dataset 3 - partitioning,1,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,2,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,2,Full validator,1.0,1.0
+Dataset 3 - partitioning,2,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,3,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,3,Full validator,1.0,1.0
+Dataset 3 - partitioning,3,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,4,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,4,Full validator,1.0,1.0
+Dataset 3 - partitioning,4,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,5,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,5,Full validator,1.0,1.0
+Dataset 3 - partitioning,5,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,6,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,6,Full validator,1.0,1.0
+Dataset 3 - partitioning,6,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,7,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,7,Full validator,1.0,1.0
+Dataset 3 - partitioning,7,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,8,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,8,Full validator,1.0,1.0
+Dataset 3 - partitioning,8,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,9,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,9,Full validator,1.0,1.0
+Dataset 3 - partitioning,9,Ablation - provenance,1.0,1.0
+Dataset 3 - partitioning,10,Baseline (local),0.0,0.3333333333333333
+Dataset 3 - partitioning,10,Full validator,1.0,1.0
+Dataset 3 - partitioning,10,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,1,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,1,Full validator,1.0,1.0
+Dataset 4 - task/metric,1,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,2,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,2,Full validator,1.0,1.0
+Dataset 4 - task/metric,2,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,3,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,3,Full validator,1.0,1.0
+Dataset 4 - task/metric,3,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,4,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,4,Full validator,1.0,1.0
+Dataset 4 - task/metric,4,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,5,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,5,Full validator,1.0,1.0
+Dataset 4 - task/metric,5,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,6,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,6,Full validator,1.0,1.0
+Dataset 4 - task/metric,6,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,7,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,7,Full validator,1.0,1.0
+Dataset 4 - task/metric,7,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,8,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,8,Full validator,1.0,1.0
+Dataset 4 - task/metric,8,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,9,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,9,Full validator,1.0,1.0
+Dataset 4 - task/metric,9,Ablation - provenance,1.0,1.0
+Dataset 4 - task/metric,10,Baseline (local),0.6666666666666666,0.6666666666666666
+Dataset 4 - task/metric,10,Full validator,1.0,1.0
+Dataset 4 - task/metric,10,Ablation - provenance,1.0,1.0
+Dataset 5 - augmentation/provenance,1,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,1,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,1,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,2,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,2,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,2,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,3,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,3,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,3,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,4,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,4,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,4,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,5,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,5,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,5,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,6,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,6,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,6,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,7,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,7,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,7,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,8,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,8,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,8,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,9,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,9,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,9,Ablation - provenance,0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,10,Baseline (local),0.0,0.3333333333333333
+Dataset 5 - augmentation/provenance,10,Full validator,1.0,1.0
+Dataset 5 - augmentation/provenance,10,Ablation - provenance,0.0,0.3333333333333333

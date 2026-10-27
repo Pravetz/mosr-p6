@@ -3,14 +3,16 @@
   "precision": 1.0,
   "recall": 1.0,
   "f1": 1.0,
-  "tp": 200,
-  "tn": 25,
+  "tp": 64,
+  "tn": 64,
   "fp": 0,
   "fn": 0,
-  "n": 225,
+  "n": 128,
   "seed": 42,
-  "elapsed_s": 0.003391610000107903,
-  "data_sha256": "27a2b4496f3a7e2252929256a4f20a6caac2076c5eaac8b94c1859cb462fd917",
+  "elapsed_s": 0.0011725869990186766,
+  "data_sha256": "d0bfa357190ff8abc41326ec94ccc75fc83fdcb2709498d1d2b67720559bfddf",
   "python": "3.13.5",
-  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41"
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "git_commit": "411297437b60509e9822cbfb3b111adced10e6d2",
+  "git_dirty": true
 }

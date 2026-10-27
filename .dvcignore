@@ -1,0 +1,4 @@
+# Generated and local-only directories do not need DVC traversal.
+.venv/
+.mlflow/
+artifacts/

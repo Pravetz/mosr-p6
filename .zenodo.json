@@ -1,14 +1,17 @@
 {
   "title": "Reproducible artifact for formal specification and preventive validation of machine-learning experiments",
-  "description": "Artifact bundle containing a DSL benchmark, a rule-based methodological-validity verifier, a deterministic ML baseline, Docker/Compose configuration, MLflow logging hooks and DVC metadata.",
+  "description": "Reproducible artifact containing a generated DSL benchmark, a parser and rule-based methodological-validity verifier, a group-separated ML baseline, corrected statistical analysis of the preserved Practical Work 5 results, Docker Compose, MLflow tracking and DVC metadata.",
   "creators": [
-    {"name": "Didur, Volodymyr"}
+    {
+      "name": "Didur, Volodymyr",
+      "affiliation": "Khmelnytskyi National University"
+    }
   ],
   "keywords": [
     "machine learning", "domain-specific language", "static analysis",
     "data leakage", "reproducibility", "MLflow", "DVC"
   ],
-  "license": "MIT",
+  "license": "mit",
   "upload_type": "software",
   "access_right": "open",
   "related_identifiers": [

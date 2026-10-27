@@ -1,0 +1,6 @@
+dataset,Ablation - provenance,Baseline (local),Full validator
+Dataset 1 - preprocessing,0.0,0.0,1.0
+Dataset 2 - CV/reproducibility,0.6666666666666666,0.0,1.0
+Dataset 3 - partitioning,1.0,0.0,1.0
+Dataset 4 - task/metric,1.0,0.6666666666666666,1.0
+Dataset 5 - augmentation/provenance,0.0,0.0,1.0

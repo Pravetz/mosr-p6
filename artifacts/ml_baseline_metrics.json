@@ -3,7 +3,14 @@
   "precision": 1.0,
   "recall": 1.0,
   "f1": 1.0,
+  "roc_auc": 1.0,
   "seed": 42,
-  "train_size": 157,
-  "test_size": 68
+  "train_size": 88,
+  "test_size": 40,
+  "train_groups": 44,
+  "test_groups": 20,
+  "group_overlap": 0,
+  "data_sha256": "d0bfa357190ff8abc41326ec94ccc75fc83fdcb2709498d1d2b67720559bfddf",
+  "git_commit": "411297437b60509e9822cbfb3b111adced10e6d2",
+  "git_dirty": true
 }

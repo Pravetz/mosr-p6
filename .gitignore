@@ -6,3 +6,4 @@ mlflow.db
 artifacts/metrics.json
 .dvc/cache/
 .venv
+.ipynb_checkpoints/

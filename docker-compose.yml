@@ -1,6 +1,9 @@
 services:
   mlflow:
-    build: .
+    build:
+      context: .
+      args:
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
     command: >
       mlflow server
       --host 0.0.0.0
@@ -23,7 +26,10 @@ services:
       start_period: 5s
 
   experiment:
-    build: .
+    build:
+      context: .
+      args:
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
     depends_on:
       mlflow:
         condition: service_healthy

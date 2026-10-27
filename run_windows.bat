@@ -4,6 +4,7 @@ python -m venv .venv
 call .venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+python src\generate_benchmark.py
 python src\run_experiment.py --seed 42
 python src\train_ml_baseline.py --seed 42
 echo.

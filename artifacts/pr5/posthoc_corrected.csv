@@ -1,0 +1,4 @@
+algorithm_1,algorithm_2,rank_difference,p_nemenyi,cohen_dz_across_datasets
+Baseline (local),Full validator,1.5999999999999999,0.030662749794239996,-2.9068883707497277
+Baseline (local),Ablation - provenance,0.7999999999999998,0.415113500352536,-0.9203579866168445
+Full validator,Ablation - provenance,0.8,0.4151135003525357,0.9231326627541018

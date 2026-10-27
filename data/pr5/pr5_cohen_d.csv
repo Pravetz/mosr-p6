@@ -1,0 +1,4 @@
+algorithm_1,algorithm_2,cohen_dz
+Baseline (local),Full validator,-3.217335854398791
+Baseline (local),Ablation - provenance,-1.0186496251525985
+Full validator,Ablation - provenance,1.0217206288796665

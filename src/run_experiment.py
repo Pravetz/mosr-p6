@@ -2,6 +2,7 @@ from __future__ import annotations
 import argparse, hashlib, json, os, platform, sys, time
 from pathlib import Path
 import pandas as pd
+from provenance import capture_git_provenance
 from verifier import evaluate
 
 
@@ -15,7 +16,7 @@ def sha256(path: Path) -> str:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--data', default='data/benchmark_specs_pr4.csv')
+    ap.add_argument('--data', default='data/benchmark_specs.csv')
     ap.add_argument('--output', default='artifacts/metrics.json')
     ap.add_argument('--seed', type=int, default=42)
     ap.add_argument('--use-mlflow', action='store_true')
@@ -33,6 +34,7 @@ def main():
         'data_sha256': sha256(data_path),
         'python': sys.version.split()[0],
         'platform': platform.platform(),
+        **capture_git_provenance(),
     })
 
     out = Path(args.output)
@@ -45,7 +47,14 @@ def main():
         mlflow.set_tracking_uri(tracking_uri)
         mlflow.set_experiment('mlspec-methodological-validity')
         with mlflow.start_run():
-            mlflow.log_params({'seed': args.seed, 'n_specs': metrics['n'], 'validator': 'full'})
+            mlflow.log_params({
+                'seed': args.seed,
+                'n_specs': metrics['n'],
+                'validator': 'full',
+                'data_sha256': metrics['data_sha256'],
+                'git_commit': metrics['git_commit'],
+                'git_dirty': metrics['git_dirty'],
+            })
             for key in ['accuracy','precision','recall','f1','elapsed_s']:
                 mlflow.log_metric(key, float(metrics[key]))
             mlflow.log_artifact(str(out))
