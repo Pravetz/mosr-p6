@@ -71,38 +71,6 @@ The ML baseline can still score perfectly because the synthetic violations are e
 categorical rule signals. The group-separated split establishes that this is not caused by
 duplicated test rows, but it does not establish external validity.
 
-## Reproduce the Practical Work 5 analysis
-
-```bash
-make analyze
-make notebook                    # optional interactive notebook
-```
-
-Corrected outputs are written under `artifacts/pr5/`. The ten stored rows per
-dataset/algorithm have identical F1 and accuracy values, so the corrected analysis collapses
-them to five independent dataset blocks before Friedman and Nemenyi testing. The original
-CSV measurements are preserved unchanged. Their upstream measurement-generation program was
-not present in the supplied notebook/archive, so this repository reproduces their analysis,
-not their original acquisition.
-
-## MLflow locally
-
-Keep the server running in one terminal:
-
-```bash
-make mlflow
-```
-
-In another activated environment:
-
-```bash
-make mlflow-run
-make mlflow-baseline
-```
-
-Open <http://127.0.0.1:5000>. The baseline run logs the fitted scikit-learn pipeline as a
-model artifact; both runs log parameters, metrics, dataset hashes and Git provenance.
-
 ## Docker Compose
 
 ```bash
